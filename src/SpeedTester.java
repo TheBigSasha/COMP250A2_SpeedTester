@@ -21,7 +21,12 @@ public class SpeedTester {
     public static void main(String args[]){
         MainWindow.launchGrapher(SpeedTester.class);
     }
-    
+
+    /**
+     * Tests the speed of addterm in Polynomial for the nth term
+     * @param size n
+     * @return     how fast it was to add term n
+     */
     @benchmark(name="Add Term", expectedEfficiency = "O(n)", category = "Assignment 2", description = "Adds a term to a polynomial of a size n")
     public static long addTermBenchmark(long size){
         final String methodID = "addTerm";
@@ -32,14 +37,26 @@ public class SpeedTester {
             ourPolynomial = new Polynomial();
             savedPolynomials.put(methodID, ourPolynomial);
         }
-        
-        for(int i = ourPolynomial.size(); i < sizeAdj - 1; i++){
-            ourPolynomial.addTerm(new Term(i, BigInteger.probablePrime(24,rand)));
+        if(size < 2){
+            for(int i = 0; i < sizeAdj; i++){
+                ourPolynomial.addTerm(new Term(i, BigInteger.probablePrime(24,rand)));
+            }
+            BigInteger val = BigInteger.valueOf(rand.nextLong());
+            Term t = new Term(sizeAdj, val);
+            long starTime = System.nanoTime();
+            ourPolynomial.addTerm(t);
+            long endTime = System.nanoTime();
+            return endTime - starTime;
+        }else {
+
+            for (int i = ourPolynomial.size(); i < sizeAdj - 1; i++) {
+                ourPolynomial.addTerm(new Term(i, BigInteger.probablePrime(24, rand)));
+            }
         }
         BigInteger val = BigInteger.valueOf(rand.nextLong());
         Term t = new Term(sizeAdj, val);
         long starTime = System.nanoTime();
-        ourPolynomial.addTerm(t);           
+        ourPolynomial.addTerm(t);
         long endTime = System.nanoTime();
         return endTime - starTime;
     }
