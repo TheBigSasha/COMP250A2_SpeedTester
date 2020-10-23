@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RuntimeTester">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Runtime_Efficiency_Tester_COMP250_Fall2020/build/libs/RuntimeTester.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

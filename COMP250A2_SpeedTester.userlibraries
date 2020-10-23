@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="RuntimeTester">
+    <archive path="C:/Users/alexa/IdeaProjects/Runtime_Efficiency_Tester_COMP250_Fall2020/build/libs/RuntimeTester.jar" />
+  </library>
+  <library name="ArduLink" />
+  <library name="openjfx-14_windows-x64_bin-sdk" />
+</eclipse-userlibraries>
+
