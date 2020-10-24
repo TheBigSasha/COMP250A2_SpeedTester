@@ -21,7 +21,7 @@ public class SpeedTester {
     private static final String categoryName = "Assignment 2";
     
     public static void main(String args[]){
-        MainWindow.launchGrapher(SpeedTester.class);
+        Visualizer.launch(SpeedTester.class);
     }
 
     /**
