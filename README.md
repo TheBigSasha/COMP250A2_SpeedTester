@@ -5,11 +5,11 @@ Speed tester for COMP250 Assignment 2 @ McGill University!
 Requires library https://github.com/TheBigSasha/RuntimeTester
 
 # Java Library to plot the Time Complexity of methods!
-### (Download the latest .jar from the "Releases")[https://github.com/TheBigSasha/RuntimeTester/releases]
+### [Download the latest .jar from the "Releases"](https://github.com/TheBigSasha/RuntimeTester/releases)
 This release is Windows specific for now, a Mac and Linux version will be compiled and added in a release soon.
 
 ## 📚 Library Installation
-(Add the latest .jar from the releases as a library to your Java IDE:)[https://github.com/TheBigSasha/RuntimeTester/releases]
+Add the [latest .jar](https://github.com/TheBigSasha/RuntimeTester/releases) from the releases as a library to your Java IDE:
 
 ### IntelliJ IDEA
 #### [Video Guides](https://www.youtube.com/watch?v=FBoE2F2152s&list=PLFvevpoGcNCs0p6QQOEASIuCRwDJAeioA&ab_channel=COMP250) 
