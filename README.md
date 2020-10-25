@@ -9,7 +9,7 @@ Requires library https://github.com/TheBigSasha/RuntimeTester
 This release is Windows specific for now, a Mac and Linux version will be compiled and added in a release soon.
 
 ## 📚 Library Installation
-Add the [latest .jar](https://github.com/TheBigSasha/RuntimeTester/releases) from the releases as a library to your Java IDE:
+Add the latest jarfile from the [releases](https://github.com/TheBigSasha/RuntimeTester/releases) as a library to your Java IDE:
 
 ### IntelliJ IDEA
 #### [Video Guides](https://www.youtube.com/watch?v=FBoE2F2152s&list=PLFvevpoGcNCs0p6QQOEASIuCRwDJAeioA&ab_channel=COMP250) 
