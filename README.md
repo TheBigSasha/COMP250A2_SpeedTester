@@ -1,4 +1,4 @@
-# COMP250A2_SpeedTester
+# COMP250 Fall 2020 Assignment 2 Speed Tester
 
 Speed tester for COMP250 Assignment 2 @ McGill University!
 
