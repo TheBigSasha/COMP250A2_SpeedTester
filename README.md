@@ -12,11 +12,11 @@ You should use the .jar compiled for your operating system (RuntimeTester-window
 Add the latest jarfile from the [releases](https://github.com/TheBigSasha/RuntimeTester/releases) as a library to your Java IDE:
 
 ### IntelliJ IDEA
-#### [Video Guides](https://www.youtube.com/watch?v=FBoE2F2152s&list=PLFvevpoGcNCs0p6QQOEASIuCRwDJAeioA&ab_channel=COMP250) 
+#### [Video Guides](https://youtu.be/ZGY18O0-sbE) 
 ##### Click on: ```File -> Project Structure -> Project Settings -> Libraries -> + -> Java -> (navigate to and select RuntimeTester.jar)```
 
 ### Eclipse
-#### [Video Guides](https://www.youtube.com/watch?v=dofSJCqE9qE&list=PLFvevpoGcNCs5z8OeGYkws02bBrfeonVP&ab_channel=COMP250)
+#### [Video Guides](https://youtu.be/St7myk2ftp0)
 ##### Right click on your project ``` -> Build Path -> Libraries -> Classpath -> Add External JARs... -> (navigate to and select RuntimeTester.jar)```!
 
 ## 💻 Usage
